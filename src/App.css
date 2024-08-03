@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.area{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
+}
+
+.field>button {
+  border-radius: 0px;
+  border: 1px solid white;
+}
+
+.field>button:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.field>button:disabled {
+  cursor: pointer;
+}
+
+.field>button:disabled svg {
+  fill: white;
+}
+
+
+.screen {
+  gap: 10px;
+  margin: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.restart{
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 5px 10px;
+}
